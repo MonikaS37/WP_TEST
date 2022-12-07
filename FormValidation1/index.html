@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+
+    <div class="box">
+        <img src="user.png" class="user" width="20%">
+        <h1>Login Here</h1>
+    
+        <form name="myform" action="register.php" method="POST" onsubmit="return vfun()">
+            <p>Username</p>
+            <input type="text" name="uname" placeholder="Enter Username" required="">
+            <div id="errorBox1" class="eb"></div>
+
+            <p >Password</p>
+            <input type="password" name="upswd" placeholder="Enter Password" required="">
+            <div id="errorBox2" class="eb"></div>
+
+            <input type="submit" name="" value="Login">
+            
+            <br><br>
+            <hr>
+            <p class="p">For new account?</p>
+            <br>
+            <a class="a" href="register.html"> Register</a>
+           
+        </form>
+    </div>
+    
+</body>
+</html>
